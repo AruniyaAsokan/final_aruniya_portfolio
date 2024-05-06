@@ -214,8 +214,9 @@ function Home() {
             </div>
 
           </section>
+         
           <section className="sec6">
-          Copyright © 2024 Aruniya /\/ Aruliya Asokan
+          <p className="copyright">Copyright © 2024 Aruniya /\/ Aruliya Asokan</p>
 
           </section>
 
