@@ -60,7 +60,7 @@ function Home() {
               <h1 className="title">  Portfolio  </h1>
               <ul className="sections">
                 <li><a href="./">Home</a></li>
-                <li><a href="https://github.com/kanaame">Projects</a></li>
+                <li><a href="https://github.com/AruniyaAsokan?tab=repositories">Projects</a></li>
                 <li><a href="https://drive.google.com/file/d/1jW-0FrJhX0xXKlxVOFOkZyTRv9j2VgqY/view?usp=sharing">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
@@ -76,7 +76,7 @@ function Home() {
                 <p className = "description">Dedicated and driven individual aspiring to excel as a Full Stack Web Developer. Proficient in HTML and CSS with a strong foundation, actively honing skills in JavaScript with hands-on experience. Familiarity with React.js adds a dynamic edge to my toolkit. Eager to contribute and grow within dynamic development environments.</p>
                 <div className="links">
                   <a href="https://www.linkedin.com/in/aruniya-asokan-7974b924b/" ><img src={l} alt="linkedin_logo" width="20" height="20"></img></a>
-                  <a href="https://github.com/kanaame" ><img src={git_hub} alt="github_logo" width="20" height="20"></img></a>
+                  <a href="https://github.com/AruniyaAsokan" ><img src={git_hub} alt="github_logo" width="20" height="20"></img></a>
                   <a href="https://www.naukri.com/code360/profile/1f3bb94e-9ca3-466b-b9f8-8ef1a10f43c3" ><img src={coding} alt="codingninjas_logo" width="20" height="20"></img></a>
 
                 </div>
