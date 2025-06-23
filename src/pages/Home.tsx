@@ -3,7 +3,7 @@ import pfp from '../assets/dp.png'
 import l from '../assets/linkedin.svg'
 import arrow_long from '../assets/arrow.svg'
 import git_hub from '../assets/git.svg'
-import coding from '../assets/codingninjas.svg'
+import coding from '../assets/leetcode.png'
 import Clouds from './components/Clouds'
 import {motion} from "framer-motion"
 // import { cubicBezier } from "framer-motion"
@@ -73,11 +73,11 @@ function Home() {
               <div className="desc">
                 <h1 className="heading" >Greetings, I'm </h1><br/>
                 <motion.h1 className="name animate-pop2" variants={variants} initial="initial2" whileInView="animate2" transition={{delay:0.4, duration: 0.3, ease: [0.68, -0.55, 0.265, 1.55]}} viewport={{ once: true }}>Aruniya Asokan</motion.h1><br/>
-                <p className = "description">Dedicated and driven individual aspiring to excel as a Full Stack Web Developer. Proficient in HTML and CSS with a strong foundation, actively honing skills in JavaScript with hands-on experience. Familiarity with React.js adds a dynamic edge to my toolkit. Eager to contribute and grow within dynamic development environments.</p>
+                <p className = "description">Dedicated and driven individual with a strong foundation in frontend development and a passion for building engaging web experiences. Proficient in HTML, CSS, JavaScript, and React.js, with multiple projects showcasing clean UI design and responsive layouts. Actively improving problem-solving skills through DSA on LeetCode. Eager to contribute as a Software Development Engineer with a focus on creating impactful user-facing applications.</p>
                 <div className="links">
                   <a href="https://www.linkedin.com/in/aruniya-asokan-7974b924b/" ><img src={l} alt="linkedin_logo" width="20" height="20"></img></a>
                   <a href="https://github.com/AruniyaAsokan" ><img src={git_hub} alt="github_logo" width="20" height="20"></img></a>
-                  <a href="https://www.naukri.com/code360/profile/1f3bb94e-9ca3-466b-b9f8-8ef1a10f43c3" ><img src={coding} alt="codingninjas_logo" width="20" height="20"></img></a>
+                  <a href="https://leetcode.com/u/aruniya/" ><img src={coding} alt="codingninjas_logo" width="20" height="20"></img></a>
 
                 </div>
                 <a href="#section2" ><motion.img className="arrow" src={arrow_long} alt="long down arrow" width="40" height="100" variants={variants} whileHover="move" whileTap="tap" /></a>
@@ -97,7 +97,7 @@ function Home() {
           <motion.img className="sec2_img" src={web} alt="webdev" variants={variants} initial="initial2" whileInView="animate2" transition={{delay:0.001, ease: [0.68, -0.55, 0.265, 1.55]}} viewport={{ once: true }} />
             <motion.div className="animate-pop2 "  variants={variants} initial="initial2" whileInView="animate2" transition={{delay:0.2, ease: [0.68, -0.55, 0.265, 1.55]}} viewport={{ once: true }} >
               <motion.h1 >ABOUT ME...</motion.h1><br/>
-              <motion.p>I'm a 2nd year student currently doing B.Tech in Computer Science and Engineering from Vellore Institute Of Technology, Chennai.
+              <motion.p>I'm a final year student currently doing B.Tech in Computer Science and Engineering from Vellore Institute Of Technology, Chennai.
               </motion.p>
               <br/><br/>
               <motion.h1 >SKILLS</motion.h1><br/>
@@ -106,8 +106,9 @@ function Home() {
                 <ul style={{display: "flex", gap: "2em"}}>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>JavaScript</li>
+                  <li>Java</li>
                   <li>React.js</li>
+                  <li>JavaScript</li>
                   <li>C++</li>
                   <li>Python</li>
                 </ul>
@@ -216,7 +217,7 @@ function Home() {
           </section>
          
           <section className="sec6">
-          <p className="copyright">Made with ❤ from scratch 2024 by Aruniya & Aruliya Asokan</p>
+          <p className="copyright">Made with ❤ from scratch 2025 by Aruniya Asokan</p>
 
           </section>
 
