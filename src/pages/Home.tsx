@@ -61,7 +61,7 @@ function Home() {
               <ul className="sections">
                 <li><a href="./">Home</a></li>
                 <li><a href="https://github.com/AruniyaAsokan?tab=repositories">Projects</a></li>
-                <li><a href="https://drive.google.com/file/d/1dlAIv5RLqhSb1IxBOBYurDGIUtAxVZLl/view?usp=sharing">Resume</a></li>
+                <li><a href="https://drive.google.com/file/d/1_piWtZCnT8u5VIogxDVIMlYF-OHub4x2/view?usp=sharing">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
               <a href="#contact"><button className="hiButton">
@@ -238,3 +238,4 @@ function Home() {
 
 
 export default Home
+
